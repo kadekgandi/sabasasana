@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:bali_app/dto/Place.dart';
-import 'package:bali_app/services/place.dart';
-import 'package:bali_app/Home.dart';
+import 'package:sabasasana/dto/Place.dart';
+import 'package:sabasasana/services/place.dart';
+import 'package:sabasasana/Home.dart';
 
 // ignore: must_be_immutable
 class NamaTempat extends StatefulWidget {

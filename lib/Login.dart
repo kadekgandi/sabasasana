@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:bali_app/Home.dart';
-
-import 'package:flutter/material.dart';
-import 'package:bali_app/Home.dart';
+import 'package:sabasasana/Home.dart';
 
 class Login extends StatefulWidget {
   @override

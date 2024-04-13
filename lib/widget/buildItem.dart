@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:bali_app/Display/NamaTempat.dart';
-import 'package:bali_app/dto/Place.dart';
+import 'package:sabasasana/Display/NamaTempat.dart';
+import 'package:sabasasana/dto/Place.dart';
 
   Widget buildItem(Place data, context) {
     return GestureDetector(

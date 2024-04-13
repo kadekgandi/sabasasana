@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:bali_app/services/data_services.dart';
-import 'package:bali_app/dto/news.dart';
+import 'package:sabasasana/services/data_services.dart';
+import 'package:sabasasana/dto/news.dart';
 
 class NewsPage extends StatefulWidget {
    @override

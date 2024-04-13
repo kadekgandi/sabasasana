@@ -4,7 +4,7 @@ import 'dart:async';
 import 'package:path/path.dart';
 
 import 'package:sqflite/sqflite.dart';
-import 'package:bali_app/dto/Place.dart';
+import 'package:sabasasana/dto/Place.dart';
 
 
 

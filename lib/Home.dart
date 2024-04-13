@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:bali_app/utility/Drawer.dart';
-import 'package:bali_app/dto/Place.dart';
-import 'package:bali_app/services/place.dart';
-import 'package:bali_app/Display/ProfilePage.dart';
-import 'package:bali_app/Display/Wisata.dart';
+import 'package:sabasasana/utility/Drawer.dart';
+import 'package:sabasasana/dto/Place.dart';
+import 'package:sabasasana/services/place.dart';
+import 'package:sabasasana/Display/ProfilePage.dart';
+import 'package:sabasasana/Display/fitur1.dart';
 
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Bali Holiday',
+      title: 'sabasasana',
       home: HomePage(),
       );
   }
@@ -58,8 +58,8 @@ class _HomePage extends State<HomePage>{
     return Scaffold(
       resizeToAvoidBottomInset: true,
         appBar: AppBar(
-          title: Text('Bali Holiday'),
-          backgroundColor: Colors.lightBlue,
+          title: Text('SABASASANA'),
+          backgroundColor: const Color.fromARGB(255, 244, 168, 3),
         ),
         
         drawer: DrawerWidget(),
@@ -84,7 +84,7 @@ class _HomePage extends State<HomePage>{
             ],
             currentIndex: _selectedIndex,
             selectedItemColor: const Color.fromARGB(255, 252, 252, 252),
-            backgroundColor: Colors.lightBlue,
+            backgroundColor: const Color.fromARGB(255, 244, 168, 3),
             onTap: _onItemTapped,
           ),
       floatingActionButton: FloatingActionButton(

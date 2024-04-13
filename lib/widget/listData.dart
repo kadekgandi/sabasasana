@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:bali_app/widget/buildItem.dart';
-import 'package:bali_app/dto/Place.dart';
+import 'package:sabasasana/widget/buildItem.dart';
+import 'package:sabasasana/dto/Place.dart';
 
 Widget buildListView(BuildContext context, Future<List<Place>> places, String kategori) {
 

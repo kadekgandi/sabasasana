@@ -1,7 +1,7 @@
 import 'package:http/http.dart' as http;
-import 'package:bali_app/dto/news.dart';
+import 'package:sabasasana/dto/news.dart';
 import 'dart:convert';
-import 'package:bali_app/endpoint/endpoint.dart';
+import 'package:sabasasana/endpoint/endpoint.dart';
 
 class NewsApi {
   static const baseUrl = Endpoints.news;
